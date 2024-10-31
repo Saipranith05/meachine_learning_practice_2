@@ -4,7 +4,7 @@ import joblib
 
 Model = joblib.load("Exam_Score.pkl")
 
-st.title("Exam Score Prediction")
+st.title("C:\ML_pratice\Exam_Score.pkl")
 
 Hours_Studied = st.number_input("Please enter no.of Hours Studied:")
 Attendance = st.number_input("Please enter your Attendance:")
